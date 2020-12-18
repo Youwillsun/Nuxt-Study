@@ -1,0 +1,17 @@
+$baseColor: red;
+
+body {
+  background-color: $baseColor;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+  margin-left: 0px;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+  margin-left: 100px;
+}
